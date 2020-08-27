@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}body {
+	font-family: Lato, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+p{
+	font-size: 15px;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #170a38;
+    padding: 1% 0;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ccc8c8;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+#hero {
+    background: #3e99c5;
+    height: 500px;
+    background-size: cover;
+    display: table;
+    position: relative;
+    width: 100%;
+}
+.hero-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.hero-text h4 {
+    font-size: 22px;
+}
+.details {
+    margin: 80px 0;
+}
+.sass {
+    padding-bottom: 80px;
+}
+.bootstrap {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.image {
+    background-image: url(img/background.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img.icon {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.footer {
+    background: #23415d;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: #849cb3;
+}
